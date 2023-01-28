@@ -1,0 +1,50 @@
+.companies-list {
+  width: 600px;
+  padding: 20px 40px;
+  margin: auto;
+}
+
+.companies-list-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.companies-list-sort {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.companies-list-sort-header {
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.companies-list-loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.companies-list-sort-order-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.companies-list-sort-order-down {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.companies-list-sort-order-up {
+  margin-bottom: 2px;
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}

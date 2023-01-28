@@ -1,0 +1,9 @@
+.button {
+  min-width: 80px;
+  min-height: 40px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
