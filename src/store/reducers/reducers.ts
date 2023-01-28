@@ -6,12 +6,12 @@ import {
   DELETE_COMPANY,
   UPDATE_SEARCH_TERM,
   CHANGE_SORT_ORDER,
-} from './actionCreators'
+} from '../actionCreators'
 import {
   CompaniesReducerInterface,
   SearchTermReducerInterface,
   SortOrderReducerInterface
-} from './types'
+} from '../types'
 
 export const companiesReducer = ({
   companies,

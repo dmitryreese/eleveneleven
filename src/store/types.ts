@@ -7,7 +7,7 @@ export interface StoreInterface {
 }
 
 export interface ActionInterface {
-  payload: any;
+  payload?: any;
   type: string;
 }
 
